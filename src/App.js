@@ -1,10 +1,9 @@
-
-import HeaderMenu from "./HeaderMenu";
+import FirstPage from "./pages/FirstPage";
 
 function App() {
   return (
     <div className="App">
-      <HeaderMenu />
+      <FirstPage />
     </div>
   );
 }
