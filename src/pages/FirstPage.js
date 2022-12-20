@@ -1,10 +1,10 @@
 import React from "react";
-import HeaderMenu from "../components/HeaderMenu";
+import Header from "../components/Header";
 
 const FirstPage = () => {
   return (
     <div className="FirstPage">
-      <HeaderMenu />
+      <Header />
     </div>
   );
 };
