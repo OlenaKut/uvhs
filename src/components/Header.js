@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../pictures/Logo.png";
 import "./HeaderMenu.css";
 import Button from "react-bootstrap/Button";
+import Menu from "../components/Menu";
 
 const Header = () => {
   return (
@@ -11,6 +12,9 @@ const Header = () => {
         <Button className="donateBtn">BECAME A VOLONTEER</Button>
         <Button className="donateBtn">DONATE HERE</Button>
       </div>
+      <>
+        <Menu />
+      </>
     </div>
   );
 };
