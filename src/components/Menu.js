@@ -7,14 +7,28 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Menu = () => {
   return (
     <div className="menu">
-      <Navbar bg="light" variant="light">
+      <Navbar expand="lg">
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse>
+            <Nav>
+              <Nav.Link href="#home" className="link text-primary">
+                Home
+              </Nav.Link>
+              <Nav.Link href="#ourWork" className="text-primary link">
+                Our work
+              </Nav.Link>
+              <Nav.Link href="#iCanHelp" className="text-primary link">
+                I can help
+              </Nav.Link>
+              <Nav.Link href="#iNeedHelp" className="text-primary link">
+                I need help
+              </Nav.Link>
+              <Nav.Link href="#ourTeam" className="text-primary link">
+                Our team
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
     </div>

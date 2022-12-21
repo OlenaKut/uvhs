@@ -6,15 +6,16 @@ import Menu from "../components/Menu";
 
 const Header = () => {
   return (
-    <div className="header">
-      <img src={Logo} alt="Logo" className="logo" />
-      <div className="groupBtn">
-        <Button className="donateBtn">BECAME A VOLONTEER</Button>
-        <Button className="donateBtn">DONATE HERE</Button>
+    <div className="header container-fluid d-flex justify-content-between">
+      <div>
+        {" "}
+        <img src={Logo} alt="Logo" className="logo" />
+        <Button className="donate">BECOME A VOLONTEER</Button>
+        <Button className="donate">DONATE HERE</Button>
       </div>
-      <>
+      <div>
         <Menu />
-      </>
+      </div>
     </div>
   );
 };

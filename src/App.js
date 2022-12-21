@@ -4,7 +4,7 @@ import FirstPage from "./pages/FirstPage";
 function App() {
   return (
     <ThemeProvider
-      breakpoints={["xxxl", "xxl", "xl", "lg", "md", "sm", "xs"]}
+      breakpoints={["xxxl", "xxl", "xl", "lg", "md", "sm", "xs", "xxs"]}
       minBreakpoint="xs"
     >
       <div className="App">
