@@ -10,10 +10,12 @@ const Header = () => {
       <div>
         {" "}
         <img src={Logo} alt="Logo" className="logo" />
-        <Button className="donate">BECOME A VOLONTEER</Button>
+        <Button className="donate">
+          BECOME A VOLONTEER
+        </Button>
         <Button className="donate">DONATE HERE</Button>
       </div>
-      <div>
+      <div className="position-absolute end-0">
         <Menu />
       </div>
     </div>

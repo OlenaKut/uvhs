@@ -5,7 +5,7 @@ function App() {
   return (
     <ThemeProvider
       breakpoints={["xxxl", "xxl", "xl", "lg", "md", "sm", "xs", "xxs"]}
-      minBreakpoint="xs"
+      minBreakpoint="xxs"
     >
       <div className="App">
         <FirstPage />
