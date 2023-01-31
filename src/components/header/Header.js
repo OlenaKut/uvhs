@@ -1,9 +1,9 @@
 import React from "react";
-import Logo from "../pictures/Logo.png";
-import "./HeaderMenu.css";
+import Logo from "../../pictures/Logo.png";
+import "../header/HeaderMenu.css";
 import Button from "react-bootstrap/Button";
-import Menu from "../components/Menu";
-import MediaLinks from "../components/MediaLinks";
+import Menu from "../header/Menu";
+import MediaLinks from "../header/MediaLinks";
 
 const Header = () => {
   return (

@@ -1,9 +1,9 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import Facebook_icon from "../pictures/Facebook_icon.png";
-import Twitter_logo from "../pictures/Twitter_logo.webp";
-import Instagram_icon from "../pictures/Instagram_icon.webp";
-import Mail_icon from "../pictures/Mail_icon.png";
+import Facebook_icon from "../../pictures/Facebook_icon.png";
+import Twitter_logo from "../../pictures/Twitter_logo.webp";
+import Instagram_icon from "../../pictures/Instagram_icon.webp";
+import Mail_icon from "../../pictures/Mail_icon.png";
 
 const MediaLinks = () => {
   return (
